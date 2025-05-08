@@ -1,2 +1,3 @@
 # Attendance-Management-System
-A simple and effective web-based Attendance Management System built with HTML, CSS, and PHP. It allows administrators and teachers to mark and manage student attendance with ease. Ideal for schools, colleges, and small organizations seeking a lightweight solution.
+
+This Attendance Management System is a lightweight PHP-based web application designed to automate the process of taking and managing attendance. It features a clean user interface built with HTML and CSS, and a functional backend using PHP and MySQL for data storage.
