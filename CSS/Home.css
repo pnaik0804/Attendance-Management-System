@@ -1,0 +1,612 @@
+*{
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+/*Utility Classes*/
+
+.heading {
+    color: rgb(1, 0, 138);
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.link {
+    color: rgb(1, 0, 138);
+    ;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main_head {
+    text-align: center;
+    margin: 20px;
+    color: rgb(1, 0, 138);
+    ;
+    font-size: 50px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+/* rgba(47, 180, 246, 0.471); */
+
+.text {
+    font-size: 25px;
+    color: rgb(1, 0, 138);
+    padding: 5px 0px 0px 70px;
+    font-weight: 700;
+}
+
+nav.navbar {
+    display: flex;
+    padding: 15px 15px 0px 15px;
+    margin: 0px 0px 5px 0px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(227, 215, 250, 0.198);
+
+}
+
+.nav-link ul li::after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+}
+
+nav div.logo img {
+    float: left;
+    padding-bottom: 10px;
+}
+
+nav div.logo {
+    width: 250px;
+}
+
+nav div.nav-item {
+    float: right;
+    width: auto;
+
+
+}
+
+nav div.nav-item ul li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 50px;
+    position: relative;
+}
+
+nav div.nav-item ul li a {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+    color: rgb(1, 0, 138);
+
+}
+
+
+
+/* Slide Show CSS*/
+
+
+
+.carousel-inner {
+
+    height: 80vh;
+}
+
+/* Why to choose us  */
+
+section.choose {
+    /* border: 2px solid red; */
+    margin: 60px 40px;
+    max-width: 1200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+div.facts {
+    width: 28%;
+    display: inline-block;
+    /* border: 2px solid black; */
+    text-align: center;
+    background-color: rgba(49, 49, 49, 0.018);
+    margin: 2px 0px 0px 60px;
+    border-radius: 20px;
+
+
+}
+
+div.facts img {
+    height: 220px;
+    width: 180px;
+}
+
+div.carousel-inner {
+    height: 600px;
+    /* border: 2px solid  red; */
+    width: 1250px;
+    margin: 10px auto;
+
+}
+
+
+
+/* Courses CSS */
+
+section.courses {
+    /* border: 2px solid red; */
+    margin: 60px 50px;
+    max-width: 1200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+div.content_item img {
+    height: 170px;
+    width: 140px;
+}
+
+div.content_item {
+    width: 23%;
+    display: inline-block;
+    /* border: 2px solid black; */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.896);
+    margin: 2px 0px 0px 20px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+div.content_item:hover {
+
+    margin-left: 2px;
+    box-shadow: 0px 0px 4px 5px rgba(190, 190, 190, 0.241)
+}
+
+
+
+
+.content .button .btn-1 {
+    margin: 10px;
+    width: 100px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: sans-serif;
+    background: #72d5ff;
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #04075e;
+    border-radius: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.content .btn-1:hover {
+    background: rgb(1, 0, 138);
+    color: #ffffff;
+
+}
+
+.read_more {
+    margin-top: 35px;
+}
+
+
+
+/* About_us css */
+
+
+.about-us {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-col img {
+    height: 70vh;
+    width: 100%;
+}
+
+.about-col h1 {
+    padding: 0;
+}
+
+.about-col p {
+    padding: 15px 0 25px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.col1 {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    padding-top: 70px;
+}
+
+.col1 img {
+    width: 75%;
+    margin-left: 30px;
+}
+
+.about {
+    display: block;
+    padding-right: 38px;
+    justify-content: left;
+}
+
+.about h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.about p {
+    display: block;
+    font-size: 17px;
+    line-height: 24px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    color: #444;
+}
+
+.main-content .button .btn-1 {
+    margin: 0;
+    width: 150px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: sans-serif;
+    background: #72d5ff;
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: rgb(1, 0, 138);
+    border-radius: 50px;
+    margin-top: 24px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.main-content .btn-1:hover {
+    background: rgb(1, 0, 138);
+    color: #ffffff;
+
+}
+
+.read_more {
+    margin-top: 35px;
+}
+
+
+/* ############## team css ################# */
+section.team_sec {
+    /* border: 2px solid red; */
+    max-width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+
+}
+
+div.team {
+    /* border: 2px solid rgb(0, 255, 30); */
+
+}
+
+div.team img {
+    width: 230px;
+    height: 200px;
+}
+
+div.team_mem {
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    /* border: 2px solid black; */
+    margin: 10px 2px;
+
+}
+
+div.team_mem h2 {
+    margin: 7px;
+}
+
+div.team_mem p {
+    color: #a3a3a3;
+}
+
+div.team_mem a {
+    display: inline-block;
+    width: fit-content;
+}
+
+/* ############### contact info ############## */
+
+section.contact {
+
+    margin: 40px auto;
+
+}
+
+div.information {
+    max-width: 1400px;
+    width: 95%;
+
+
+}
+
+div#main-info {
+    float: left;
+    width: 40%;
+    padding-left: 50px;
+
+}
+
+div#main-info1 {
+    float: right;
+    width: 40%;
+    padding-left: 100px;
+    box-shadow: 1px 2px 2px 1px rgba(215, 215, 215, 0.693);
+    padding: 10px;
+    margin: 10px;
+
+}
+
+p {
+    color: #777;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+#main-info1 input,
+#main-info1 textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid #e8e8e8;
+}
+
+#main-info1 input:hover,
+#main-info1 textarea:hover {
+    border: 2px solid#72d5ff;
+}
+
+.newbtn {
+    text-decoration: none;
+    text-align: center;
+    background-color: #72d5ff;
+    color: rgb(4, 18, 49);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #ccc;
+    transition: 0.3s all ease-in-out;
+}
+
+.newbtn:hover {
+    background-color: rgb(1, 0, 138);
+    color: rgb(255, 255, 255);
+
+}
+
+
+/* ################ footer ################# */
+section.footer-section {
+    position: relative;
+    height: 75vh;
+    width: 98.4vw;
+    background-color: rgb(1, 0, 138);
+    margin-top: 800px;
+}
+
+div.footer-items {
+    width: 100%;
+}
+
+.footer-items .footer-item {
+    float: left;
+    width: 13%;
+    margin-left: 45px;
+    text-align: left;
+    color: rgb(111, 229, 255);
+    margin-top: 80px;
+}
+
+.footer-items .footer-item p {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.footer-items .footer-item li {
+    list-style: none;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 15px;
+
+
+}
+
+hr.line {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    color: #ffffff;
+
+
+}
+
+p.line-1 {
+    position: absolute;
+    bottom: 0;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
+@media (max-width: 540px) {
+    label.logo {
+        font-size: 2.3rem;
+        padding-left: 20px;
+    }
+
+    .captions {
+        top: 120px;
+        left: 40px;
+    }
+
+    .captions h1 {
+        font-size: 2.5em !important;
+        line-height: 40px;
+    }
+
+    .about {
+        padding-left: 40px;
+    }
+
+    .about h1 {
+        font-size: 2.2rem;
+    }
+
+    .header h1,
+    .p-header h1,
+    .call-to-action .box h1 {
+        font-size: 2.5rem;
+    }
+
+    .box .action-btn {
+        padding: .9rem 1.9rem .9rem 1.9rem;
+    }
+}
+
+@media (max-width: 420px) {
+    label.logo {
+        font-size: 2rem;
+        padding-left: 20px;
+    }
+
+    .checkbtn {
+        margin-right: 20px;
+    }
+
+    .captions {
+        top: 120px;
+        left: 20px;
+        width: 78%;
+    }
+
+    .captions h1 {
+        font-size: 2em !important;
+        line-height: 35px;
+    }
+
+    .captions .button {
+        padding-top: 20px;
+    }
+
+    .box .item-content p {
+        font-size: 15px;
+    }
+
+    .fa-quote-left {
+        font-size: 1.3em !important;
+        top: 22px;
+        left: 22px;
+    }
+
+    .col1 img {
+        width: 92%;
+    }
+
+    .photo-content h2 {
+        font-size: 17px;
+    }
+
+    .photo-content span {
+        font-size: 14px;
+    }
+
+    .about {
+        font-size: 1.8rem;
+    }
+
+    .header h1,
+    .p-header h1,
+    .call-to-action .box h1 {
+        font-size: 2.3rem !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .captions {
+        top: 110px;
+        left: 20px;
+        width: 78%;
+    }
+
+    .captions h1 {
+        font-size: 1.6em !important;
+        line-height: 30px;
+    }
+
+    .captions .button {
+        padding-top: 10px;
+    }
+
+    .photo-content h2 {
+        font-size: 15px;
+    }
+
+    .header h1,
+    .p-header h1,
+    .call-to-action .box h1 {
+        font-size: 1.8rem !important;
+    }
+}
+
+@media (max-width: 1250px) {
+    .copyright {
+        padding-top: 40px;
+    }
+}
